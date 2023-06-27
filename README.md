@@ -6,7 +6,7 @@ Building a simple app that uses a React Frontend and a backend Node express Api 
 Also included is Webpack for bundling and Prettier and Eslint for formatting and indenting.
 
 For MongoDB I use Docker Desktop with Docker-compose and a Mongodb container from DockerHub 
-..yaml ```
+# YAML
   version: "3"
   services:
     mongo:
@@ -15,7 +15,7 @@ For MongoDB I use Docker Desktop with Docker-compose and a Mongodb container fro
         - 27017
       ports:
         - "27017:27017"
-```
+
 To download the mongo container , first install Docker Desktop and then you can use the up command 
 
 ```console
