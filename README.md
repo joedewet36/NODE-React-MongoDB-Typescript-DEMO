@@ -1,4 +1,4 @@
-## A Demo of my skilss in MongoDB, Node.js, React.js and Typescript Serverside rendering
+## A Demo of my skills in MongoDB, Node.js, React.js and Typescript 
 
 I demonstrate my skills with Node.js, React.js, typescript and MongoDB in this repo . 
 
@@ -6,7 +6,7 @@ Building a simple app that uses a React Frontend and a backend Node express Api 
 Also included is Webpack for bundling and Prettier and Eslint for formatting and indenting.
 
 For MongoDB I use Docker Desktop with Docker-compose and a Mongodb container from DockerHub 
-..yaml ```
+```yaml
   version: "3"
   services:
     mongo:
