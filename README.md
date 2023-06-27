@@ -16,21 +16,21 @@ For MongoDB I use Docker Desktop with Docker-compose and a Mongodb container fro
       ports:
         - "27017:27017"
 ```
-#### To download the mongo container , first install Docker Desktop and then you can use the up command 
+#To download the mongo container , first install Docker Desktop and then you can use the up command 
 
 ```console
   docker-compose up
 ```
 
-#### This will download the container and set it up. 
+This will download the container and set it up. 
 
-#### Clone the repo and then open a terminal inside the folder and run npm install
+Clone the repo and then open a terminal inside the folder and run npm install
 
 ```console
   npm install
 ```
 
-#### When done with that run the webpack bundler : 
+When done with that run the webpack bundler : 
 
 ```console
   npm run dev:bundler
@@ -41,4 +41,4 @@ Now run the server
   npm run dev:server
 ```
 
-#### You can view it in your browser at http://0.0.0.0:8080/
+You can view it in your browser at http://0.0.0.0:8080/
